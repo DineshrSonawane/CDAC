@@ -1,0 +1,14 @@
+ToDo in lab sessions 
+1. Java Modifiers.
+2. Java Buzzword.
+3. Components of java
+4. Meaning of main method.
+5. Java Modifiers.
+6. Access Modifiers.
+7. Java Virtual Thread.
+8. Entry point method.
+9. Meaning of System in and System out.
+10. Size of data types.
+11. Loader in java.
+12. Garbage collector.
+13. ⁠Assignments    Done
