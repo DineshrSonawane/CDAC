@@ -1,0 +1,12 @@
+Assignment –3
+Overview of SQL.
+1) Does ANSI recognize the data type DATE?
+==>
+Yes, ANSI recognizes the date data type:
+
+Datetime data types: The date range for datetime data types is 0001-01-01 CE through 9999-12-31 CE
+The standard format for a datetime value is YYYY-MM-DD HH:MM:SS. 
+
+2) Which subdivision of SQL is used to insert values in tables
+
+The INSERT Statement is used to add new rows of data to a table.

@@ -1,0 +1,14 @@
+1) Which field of the Customers table is the primary key?
+--> Cnum is the primary key.
+
+2) What is the 4th column of the Customers table?
+
+==> 4thcoulumn of CUSTOMER table is : RATING.
+
+3) What is another word for row? For column?
+a row is called a tuple or records
+column is called an attribute or field.
+
+4) Why isn’t it possible to see the first five rows of a table?
+
+rows are hidden or we need to limit the number of rows returned
