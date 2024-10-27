@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+    * {
+            font-family: 'Arial';
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        body {
+            background-image: url("new.jpg");
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        nav {
+            width: 100%;
+            height: 100px;
+            background-position: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(15px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            position: fixed;
+            top: 0;
+        }
+        
+        #logo {
+            width: 70px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        
+        #brand-name {
+            font-size: 24px;
+            margin: 10px;
+            color: #fff;
+        }
+        
+        #nav-links {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #nav-links a {
+            margin-right: 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border: 1.5px solid #3d3b3f;
+            padding: 10px 20px;
+            border-radius: 25px;
+            color: #3d3b3f;
+            transition: background 0.4s;
+        }
+        
+        #nav-links a:hover {
+            background: #5d5d5e94;
+            color: #fff;
+        }
+        
+        h1{
+            font-size: 20px;
+            font-weight: 14px;
+            font-style:bold;
+            text-align:center;
+        }
+    .Container{
+                width: 80%;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input{
+        align-items: center;
+    }
+   </style>
+</head>
+<body>
+    <nav>
+        <img src="Datastructure.jpeg" id="logo">
+        <h1 id="brand-name">Data Structure and Algorithm</h1>
+        <div id="nav-links">
+            <a href="website.html">Home</a>
+            <a href="Aboutus.html">About Us</a>
+            <a href="form.html">Login</a>
+            <a href="Registration form.html">Sign-up</a>
+        </div>
+    </nav>
+    <div class="Container">
+    <h1> Registration Form</h1>
+   <form action="form.html">
+      <p>First Name:<input type="text" placeholder="Enter name" maxlength="10">
+      </p>
+      <p>Last Name:<input type="password" placeholder="Enter password">
+      </p>
+      <p>Email:<input type="email" placeholder="Enter email">
+      </p>     
+      <p>Contact details: <select> <option value="01">select</option> 
+                                <option value="02">+91</option> 
+                                <option value="03">+92</option> 
+                                <option value="04">+93</option> 
+                                <option value="05">+441</option>
+                                <option value="06">+1</option>
+                                <option value="07">+2</option> 
+                                </select> 
+                                <input type="text" placeholder="Enter contact details">
+                            </p> 
+    
+      <p> Date of Birth:<input type="date">
+      </p>
+      <p>Education Details <select>
+        <option value="100">select</option>
+         <option value="101">SSC</option>
+         <option value="102">HSC</option>
+         <option value="103">Graduation</option>
+         <option value="104">Post-Graduation</option>
+        </p>
+      </select>
+      <p> Gender:
+      <input type="radio" name="gender"> <label>Male</label> 
+      <input type="radio" name="gender"> <label>Female</label>
+    </p>
+    <p>Address: <textarea placeholder="Enter address"></textarea>
+    </p>
+    <p>Pin :<input type="text" placeholder="Enter pincode"></p>
+    <p>Country :<input type="text" placeholder="Enter Country"></p>
+      <input type="checkbox"> <label>I accept terms and conditions</label>
+      <br><br>
+      <input type="submit" padding:10px>
+      <input type="reset">
+   </form>
+   </div>
+</body>
+</html>
