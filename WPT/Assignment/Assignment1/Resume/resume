@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Sonawane's Resume</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 10px;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid ;
+            position: relative;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            color: #007BFF; 
+        }
+        .highlight {
+            background-color: #f0f8ff; 
+            padding: 5px;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding-bottom: 10px;
+        }
+        .skills, .education, .projects, .experience, .languages, .interests {
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            width: 100px; 
+            border-radius: 50%; 
+            position: absolute; 
+            top: 10px; 
+            right: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Dinesh Sonawane</h1>
+        <p>Email: <a href="mailto:atulsnw@gmail.com">atulsnw@gmail.com</a> | Phone: +917276450065 | Location: Nashik</p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/dineshsonawane21" target="_blank">www.linkedin.com/in/dineshsonawane21</a></p>
+    </header>
+
+    <section class="summary highlight">
+        <p>Enthusiastic and self-motivated team player with a proven track record of reliability and responsibility. Adaptable problem solver who excels in both collaborative and independent work environments. Thrives under pressure and consistently meets deadlines.</p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Bachelor of Engineering in Computer Science</strong><br>
+                G.H.Raisoni College of Engineering and Management <br>(Aug 2012 – May 2016)
+            <li>
+                <strong>HSC</strong><br>
+                Guru Govind Singh Polytechnic <br> (Jul 2009 – May 2012)
+            </li>
+            <li>
+                <strong>SSC</strong><br>
+                Kendriya Vidayala no.02 Air force Station South Devlali <br>(Mar 2009)
+            </li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Academic Projects</h2>
+        <ul>
+            <li><strong>RFID Controller for peripheral Devices</strong>: Designed a hardware to control the peripheral devices of the client System. the software and controlling hardaware was installed on the server which cut off the power of the client systems through the RFID</li>
+            
+        </ul>
+    </section>
+
+        <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages</strong>: <span class="highlight"> HTML, CSS, C, C++,Java</span></li>
+            <li><strong>Database Technologies</strong>: <span class="highlight">MySQL</span></li>
+            <li><strong>Soft Skills</strong>: <span class="highlight">Active Listening, Learning and Adaptability, Organizing Skills, Goal-Oriented</span></li>
+        </ul>
+    </section>
+
+    <section class="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li><span class="highlight">English, Marathi, Hindi</span></li>
+        </ul>
+    </section>
+
+    <section class="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li><span class="highlight">Trekking, Kabaddi, cooking, Movies</span></li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
 
