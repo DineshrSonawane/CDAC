@@ -1,1 +1,21 @@
+/*Exercise 1: Create a function processData that takes two parameters: a string and a callback function. 
+Your task is to write a callback that converts the string to uppercase and then call it within processData.*/
+<!DOCTYPE HTML>
+<HTML>
+    <Head>
 
+    </Head>
+    <body>
+        <Script>
+        function toUpperCase(str) {
+            return str.toUpperCase();
+          }
+          
+          function processData(input, callback) {
+            console.log(callback(input));
+          }
+          
+          processData("dinesh sonawane", toUpperCase);
+        </Script>
+    </body>
+</HTML>
